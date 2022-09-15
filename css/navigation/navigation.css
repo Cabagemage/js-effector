@@ -1,0 +1,15 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navigation__list {
+    display: flex;
+    gap: 20px;
+}
+.navigation__item {
+}
+.nav__item:hover {
+    color: orange;
+    transition: all 1s ease;
+}

@@ -1,0 +1,19 @@
+@import "./footer/footer.css";
+@import "./fullAnime/fullAnime.css";
+@import "./genres/genres.css";
+@import "./header/header.css";
+@import "./layout/layout.css";
+@import "./navigation/navigation.css";
+@import "./list/list.css";
+@import "./card/card.css";
+
+body{
+    height: 100%;
+    width: 100vw;
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    height: 100%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="./css/index.css"/>
+  </head>
+  <body>
+
+      <main className="main">
+        <div class="layout">
+          <header class="header">
+            <div class="header__logo">
+              <img alt='logo' src="./public/logo.png"  />
+            </div>
+            <nav class="navigation">
+              <ul class="navigation__list">
+              </ul>
+            </nav>
+          </header>
+        </div>
+      </main>
+  <template class="grid-card-template">
+    <div class="grid-card">
+      <img class="grid-card__photo" alt="">
+      <button class="grid-card__remove"></button>
+      <div class="grid-card__textbox">
+        <h2 class="grid-card__title"></h2>
+        <div class="grid-card__like-section">
+          <button type="button" class="grid-card__like-button like-button_like_active"></button>
+          <p class="grid-card__like-counter"></p>
+        </div>
+      </div>
+    </div>
+  </template>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
